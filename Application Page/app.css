@@ -1,0 +1,11 @@
+html{
+    background-image: linear-gradient(to bottom right, #551A8B, #2f2f2f);
+    height: 100%;
+    color: whitesmoke;
+}
+
+form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
