@@ -5,6 +5,10 @@ h2{
 
 div{
     border: solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1em;
 
 }
 
@@ -13,5 +17,20 @@ div.Description{
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1em;
+}
+div.Images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    border: solid black;
+    width: 15rem;
+    height: 10rem;
+
 }
