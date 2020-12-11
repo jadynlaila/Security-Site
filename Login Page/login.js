@@ -2,7 +2,6 @@
 
 function validateForm() {
 
-
     var username = document.forms["loginEmail"]["username"].value;
     var password = document.forms["loginEmail"]["password"].value;
 
@@ -12,7 +11,6 @@ function validateForm() {
     }
     else {
         alert("Login unsuccessful.");
-        $('.error').css('display', 'block');
     }
 
 }
