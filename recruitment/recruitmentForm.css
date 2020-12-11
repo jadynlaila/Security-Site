@@ -1,0 +1,23 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    align-content: center;
+}
+
+.info label {
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+}
+
+
+.info input {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
