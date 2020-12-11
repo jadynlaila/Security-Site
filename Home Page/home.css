@@ -20,11 +20,15 @@ header{
     width: 100%;
     max-width: 100%;
     box-shadow: none;
-    background-color: #551A8B;
-    position: fixed;
+    background: linear-gradient(180deg, #551A8B 10%, #2f2f2f 100%);
+    position: sticky;
     height: 60px!important;
     overflow: hidden;
     z-index: 10;
+}
+
+footer{
+    background: linear-gradient(180deg, #2f2f2f 10%, #551A8B 100%);
 }
 .main {
     margin: 0 auto;
