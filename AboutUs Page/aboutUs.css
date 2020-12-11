@@ -1,6 +1,13 @@
+body{
+    background: linear-gradient(180deg, #2f2f2f 15%, #551A8B 100%);
+}
 h2{
     text-align: center;
     font-size: larger;
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
 }
 
 div{
@@ -9,7 +16,6 @@ div{
     margin-right: 1rem;
     margin-top: 1rem;
     margin-bottom: 1em;
-
 }
 
 div.Description{
