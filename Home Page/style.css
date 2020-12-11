@@ -1,39 +1,68 @@
-*, *::after, *::before{
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Name style */
+
 header{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 
-h1{
+h1 {
     display: inline-flex;
     justify-self: center;
     font-family: 'Sumana', serif;
     font-weight: lighter;
 }
 
-header div{
+header div {
     width: 10px;
 }
 
 /* Nav styles */
 
-nav{
-    
+/* Style the links inside the navigation bar */
+
+.sidebar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+
+.sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.sidebar .icon {
+    display: none;
 }
 
 /* Main content */
 
-main h2{
+main h2 {
     text-align: center
 }
 
-.socials{
+.socials {
     text-align: end;
     margin-right: 35px;
 }
