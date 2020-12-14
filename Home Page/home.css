@@ -63,7 +63,8 @@ footer{
 }
 #sidebarMenu {
     height: 100%;
-    position: fixed;
+    position: absolute;
+    top: 0;
     left: 0;
     width: 250px;
     margin-top: 60px;
