@@ -17,10 +17,9 @@ header{
 .header {
     display: block;
     margin: 0 auto;
-    width: 100%;
-    max-width: 100%;
+    /* width: auto;
+    max-width: 100%; */
     box-shadow: none;
-    background: linear-gradient(180deg, #551A8B 10%, #2f2f2f 100%);
     position: sticky;
     height: 60px!important;
     overflow: hidden;
@@ -36,22 +35,26 @@ footer{
     height: 100%;
     margin-top: 60px;
 }
-.mainInner{
+.container{
     display: table;
     height: 100%;
     width: 100%;
     text-align: center;
 }
 
-.video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+.container { position: relative; }
+.container video {
+    position: relative;
+    z-index: 0;
 }
-
-.mainInner div{
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+}
+.container div {
     display:table-cell;
     vertical-align: middle;
     font-size: 3em;
@@ -67,6 +70,7 @@ footer{
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #2f2f2f 15%, #551A8B 100%);
+    z-index: 2;
 }
 .sidebarMenuInner{
     margin:0;
