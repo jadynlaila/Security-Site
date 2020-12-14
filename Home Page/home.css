@@ -13,9 +13,10 @@ body {
 header{
     font-family: 'Sumana', serif;
     font-weight: lighter;
+    display: inline-flex;
 }
 .header {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     /* width: auto;
     max-width: 100%; */
