@@ -175,3 +175,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform: rotate(-135deg);
     margin-top: -9px;
 }
+ul{
+    background: linear-gradient(180deg, #2f2f2f 15%, #551A8B 100%);
+}
