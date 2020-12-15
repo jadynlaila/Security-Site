@@ -1,6 +1,6 @@
 html{
     background-image: linear-gradient(to bottom right, #551A8B, #2f2f2f);
-    height: 100%;
+    /* height: 100%; */
     color: whitesmoke;
 }
 
@@ -8,4 +8,30 @@ form{
     margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+div.InfoAboutJob{
+    border: solid black;
+    height: 20rem;
+    justify-content: space-evenly;
+}
+ul.app{
+    list-style-type: none;
+    position: relative;
+}
+ul.Requirements{
+    float: left;
+}
+ul.Duties{
+    float: right;
+}
+ul.Can{
+    float: left;
+}
+ul.Cannot{
+    float: right;
+}
+ul.Benefits{
+    float: center;
+    text-align: center;
+    margin-left: 1rem;
 }
