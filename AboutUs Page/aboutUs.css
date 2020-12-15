@@ -25,6 +25,19 @@ div.Description{
     margin-top: 1rem;
     margin-bottom: 1em;
 }
+
+div.Description h3{
+    text-align: center;
+    font-size: larger;
+    color: whitesmoke;
+}
+
+div.Description h4 {
+    text-align: left;
+    font-size: larger;
+    color: whitesmoke;
+}
+
 div.Images{
     display: flex;
     justify-content: center;
