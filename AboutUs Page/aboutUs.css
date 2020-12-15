@@ -6,11 +6,14 @@ h2{
     font-size: larger;
     color: whitesmoke;
 }
+h3{
+    color: whitesmoke;
+}
 p{
     color: whitesmoke;
 }
 
-div{
+div.AboutUs{
     border: solid black;
     margin-left: 1rem;
     margin-right: 1rem;

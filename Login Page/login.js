@@ -6,7 +6,7 @@ function validateForm() {
     var password = document.forms["loginEmail"]["password"].value;
 
     if ((username == "Kill") && (password == "Me")) {
-        window.location.href = 'index.html';
+        window.location.href = '../Home Page/home.html';
         return false;
     }
     else {
