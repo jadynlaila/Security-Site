@@ -29,10 +29,8 @@ header {
 .header h1 {
     z-index: 1000;
     display: flex;
-    align-content: center;
     margin-top: 10px;
 }
-
 footer{
     background: linear-gradient(180deg, #2f2f2f 10%,#551A8B 100%);
 }
