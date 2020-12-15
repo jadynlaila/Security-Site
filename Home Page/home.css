@@ -10,25 +10,27 @@ body {
     font-family: 'Sumana', serif;
     font-weight: lighter;
 }
-header{
+
+header {
     font-family: 'Sumana', serif;
     font-weight: lighter;
-    display: inline-flex;
-}
-.header {
-    display: inline-block;
+    justify-self: center;
+    display: block;
+    text-align: center;
     margin: 0 auto;
     width: auto;
     max-width: 100%;
     box-shadow: none;
     position: sticky;
-    height: 60px!important;
-    overflow: hidden;
     z-index: 10;
+    height: 10px;
 }
 
 .header h1 {
     z-index: 1000;
+    display: flex;
+    align-content: center;
+    margin-top: 10px;
 }
 
 footer{
