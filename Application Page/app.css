@@ -3,6 +3,9 @@ html{
     /* height: 100%; */
     color: whitesmoke;
 }
+h1{
+    text-align: center;
+}
 
 form{
     margin-top: 50px;
