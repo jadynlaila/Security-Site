@@ -31,7 +31,7 @@ header{
 }
 
 footer{
-    background: linear-gradient(180deg, #2f2f2f 10%, #551A8B 100%);
+    background: linear-gradient(180deg, #2f2f2f 10%,#551A8B 100%);
 }
 .main {
     margin: 0 auto;

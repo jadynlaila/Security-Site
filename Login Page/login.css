@@ -15,7 +15,7 @@ input {
     border: none;
     border-radius: 5px;
     text-align: left;
-    color: white;
+    color: lightgrey;
 }
 
 h1 {
@@ -25,11 +25,11 @@ h1 {
 
 .container {
     font-family: 'Homenaje', sans-serif;
-    border: 1px grey solid;
+    border: 1px #551A8B;
     width: 20%;
     text-align: center;
     margin: auto;
-    background-color: white;
+    background-color: lightgray;
     padding-bottom: 10px;
     -webkit-box-shadow: 3px 0px 10px 0px black;
     -moz-box-shadow: 3px 0px 10px 0px black;
@@ -37,7 +37,7 @@ h1 {
 }
 
 body {
-    background-color: #D4CCC5;
+    background-color:#551A8B;
 }
 
 .submit {
@@ -52,7 +52,7 @@ body {
 }
 
 .submit:hover {
-    background-color: #4c61d4;
+    background-color: #551A8B;
     color: white;
     border: 1px solid black;
     font-family: 'Homenaje', sans-serif;
