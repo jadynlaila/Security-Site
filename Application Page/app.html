@@ -11,10 +11,70 @@
     <meta property='og: description' content=''>
     <title>Join Us</title> <!-- comment -->
     <link rel='stylesheet' href='app.css'>
+    <link rel="stylesheet for the nav" href="../SideNav_js_and_css/SideNav.css">
     <link rel='shortcut icon' href='Untitled.png' , type='image/x-icon'>
 </head>
 
 <body>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+        <div id="sidebarMenu">
+                <ul class="sidebarMenuInner">
+                    <li><a href="../Home Page/home.html">Home</a></li>
+                    <li><a href="../Login Page/login.html">Login</a></li>
+                    <li><a href="../AboutUs Page/aboutUs.html">About Us</a></li>
+                    <li><a href="../Application Page/app.html">Apply</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                </ul>
+            </div>
+    <div class="InfoAboutJob">
+        <ul class="Requirements app">
+            <h4>Requirements</h4>
+            <li>must be 21 or older</li>
+            <li>guns quals</li>
+            <li>background check</li>
+            <li>law enforcement/military background for at least 2 years</li>
+            <li>defensive training guard card</li>
+            <li>drivers license</li>
+            <li>first aid certificate</li>
+            <li>high school diploma or equivalent</li>
+            <li>oral communicate/interpersonal skills</li>
+            <li>pass a fitness test</li>
+            <li>good with technology</li>
+            <li>Must be a women</li>
+        </ul>
+        <ul class="Duties app">
+            <h4>Day to day duties</h4>
+            <li>Driving the clients around</li>
+            <li>Accompanying the clients day to day</li>
+            <li>Regular security</li>
+            <li>Transportation must be provided for by client</li>
+        </ul>
+        <ul class="Benefits app">
+            <h4>Benefits</h4>
+            <li>401K</li>
+            <li>Health insurance</li>
+            <li>Life insurance</li>
+            <li>Free training</li>
+            <li>Paid sick time</li>
+        </ul>
+    </div>
+    <ul class="Can app">
+        <h4>Can</h4>
+        <li>We will take the bullet for the client</li>
+        <li>Detain individuals</li>
+        <li>We can drive clients around</li>
+        <li>Available 24/7</li>
+    </ul>
+    <ul class="Cannot app">
+        <h4>Cannot</h4>
+        <li>Make arrests (must pass it on to officers)</li>
+        <li>Shoot or pull out guns unless a person is threating</li>
+    </ul>
     <form action="" id="EmploymentApplication" method="post" onsubmit="return ValidateForm(this);">
         <script type="text/javascript">
             function ValidateForm(frm) {
@@ -102,6 +162,7 @@
             </tr>
         </table>
     </form>
+<script src="../SideNav_js_and_css/SideNav.js"></script>
 </body>
 
 </html>
