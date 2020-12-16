@@ -10,12 +10,12 @@
     <meta property='og: description' content=''>
     <title>Order Services</title>  <!-- comment -->
     <link rel='stylesheet' href='buy.css'>
+    <link rel="Navstylesheet" href="../SideNav_js_and_css/SideNav.css"
     <link rel='shortcut icon' href='Untitled.png', type='image/x-icon'>
-    <link rel="NavStyleSheet" href="../SideNav_js_and_css/SideNav.css">
     <link href="https://fonts.googleapis.com/css2?family=Sumana&display=swap" rel="stylesheet">
 </head>
 <body>
-        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
     <label for="openSidebarMenu" class="sidebarIconToggle">
         <div class="spinner diagonal part-1"></div>
         <div class="spinner horizontal"></div>
@@ -33,47 +33,48 @@
             </div>
     <h1>Buy Services here</h1>
     <h3 class="Disclamier">(Disclaimer after 10 hours we charge $100 more per hour per bodyguard for overtime)</h3>
-    <div>
-        <ul class="Package1">
+    <div class="DivsForOrder">
+        <ul class="Package1 UlForBuy">
             <h4>Package 1(Basic)</h4>
-            <li>Residential</li>
-            <li>$500/hr</li>
-            <li>Basic public areas</li>
-            <li>Transporation</li>
-            <li>1-2 people fully armed</li>
-            <li><button type="submit">Order</button></li>
+            <li class="LiForBuy">Residential</li>
+            <li class="LiForBuy">$500/hr</li>
+            <li class="LiForBuy">Basic public areas</li>
+            <li class="LiForBuy">Transporation</li>
+            <li class="LiForBuy">1-2 people fully armed</li>
+            <li class="LiForBuy"><button onclick="purchase()" type="submit">Order</button></li>
         </ul>
-        <ul class="Package2">
-            <h4>Package 2 (Premium)</h4>
-            <li>Public areas (I.e. shopping)</li>
-            <li>$1000/hr</li>
-            <li>Transportation</li>
-            <li>3-5 people fully armed</li>
-            <li><button type="submit">Order</button></li>
+        <ul class="Package2 UlForBuy">
+            <h4>Package 2 (Middle Ground)</h4>
+            <li class="LiForBuy">Public areas (I.e. shopping)</li>
+            <li class="LiForBuy">$1000/hr</li>
+            <li class="LiForBuy">Transportation</li>
+            <li class="LiForBuy">3-5 people fully armed</li>
+            <li class="LiForBuy"><button onclick="purchase()" type="submit">Order</button></li>
         </ul>
-        <ul class="Package3">
-            <h4>Package 3 (Ultimate)</h4>
-            <li>Big events</li>
-            <li>$2000/hr</li>
-            <li>Transportation</li>
-            <li>5+ fully armed</li>
-            <li><button type="submit">Order</button></li>
+        <ul class="Package3 UlForBuy">
+            <h4>Package 3 (Big Boy)</h4>
+            <li class="LiForBuy">Big events</li>
+            <li class="LiForBuy">$2000/hr</li>
+            <li class="LiForBuy">Transportation</li>
+            <li class="LiForBuy">5+ fully armed</li>
+            <li class="LiForBuy"><button onclick="purchase()" type="submit">Order</button></li>
         </ul>
     </div>
-    <div class="CanCannots">
-        <ul class="Can">
-            <h3>We are able to:</h3>
-            <li>Take the bullet for the client</li>
-            <li>Detain individuals</li>
-            <li>Provide transporation to clients</li>
-            <li>Provide service 24/7</li>
+    <div class="CanCannots DivsForOrder">
+        <ul class="Can UlForBuy">
+            <h3>Can</h3>
+            <li class="LiForBuy">We will take the bullet for the client</li>
+            <li class="LiForBuy">Detain individuals</li>
+            <li class="LiForBuy">We can drive clients around</li>
+            <li class="LiForBuy">Available 24/7</li>
         </ul>
-        <ul class="Cannot">
-            <h3>We are unable to:</h3>
-            <li>Make arrests (must pass it on to officers)</li>
-            <li>Shoot or pull out guns unless a person is threating</li>
+        <ul class="Cannot UlForBuy">
+            <h3>Cannot</h3>
+            <li class="LiForBuy">Make arrests (must pass it on to officers)</li>
+            <li class="LiForBuy">Shoot or pull out guns unless a person is threating</li>
         </ul>
     </div>
     <script src="../SideNav_js_and_css/SideNav.js"></script>
+    <script src="buy.js"></script>
 </body>
 </html>
