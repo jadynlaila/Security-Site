@@ -6,7 +6,7 @@ function validateForm() {
     var password = document.forms["loginEmail"]["password"].value;
     if ((username == "indigobird") && (password == "steadfastprotection")) {   //Correct username: indigobird / pass: steadfastprotection
         console.log("state 1");
-        window.location.href = '../Home Page/home.html';
+        window.location.href = '../Home Page/index.html';
         return false;
     }
     else {
