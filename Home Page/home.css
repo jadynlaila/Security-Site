@@ -53,21 +53,17 @@ footer{
     z-index: 0;
 }
 .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    color: #fff;
     display: block;
     justify-content: center;
+    color: #fff;
 }
 .container div {
-    display:table-cell;
+    display: table-cell;
     vertical-align: middle;
     font-size: 3em;
-    font-weight: bold;
+    font-weight: bold;  
     letter-spacing: 1.25px;
-}
+}   
 #sidebarMenu {
     height: 100%;
     position: absolute;
