@@ -4,6 +4,7 @@ html{
     color: whitesmoke;
 }
 h1{
+    font-family: 'Sumana', serif;
     text-align: center;
     border: solid black;
     margin-right: 30%;
@@ -16,19 +17,24 @@ div.DivsForOrder{
     flex-direction: row;
 }
 h3{
+    font-family: 'Sumana', serif;
     text-align: center;
     font-size: 1.5rem;
 }
 h3.Disclamier{
+    font-family: 'Sumana', serif;
     color: gold;
 }
 h4{
-    font-size: 2rem;
+    font-family: 'Sumana', serif;
+    font-size: 1.5rem;
 }
 ul.UlForBuy{
+    font-family: 'Homenaje', sans-serif;
     list-style-type: none;
 }
 li.LiForBuy{
+    font-family: 'Homenaje', sans-serif;
     text-align: center;
 }
 div.CanCannots{
