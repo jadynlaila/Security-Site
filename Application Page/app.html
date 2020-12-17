@@ -9,31 +9,32 @@
     <meta property='og: image' content=''>
     <meta property='og: title' content=''>
     <meta property='og: description' content=''>
-    <title>Join Us</title> <!-- comment -->
+    <title>Join Us</title>
+    <!-- comment -->
     <link rel='stylesheet' href='app.css'>
     <link rel="stylesheet for the nav" href="../SideNav_js_and_css/SideNav.css">
-    <link rel='shortcut icon' href='Untitled.png' , type='image/x-icon'>
+    <link rel='shortcut icon' href='../media/Logo.png' , type='image/x-icon'>
 </head>
 
 <body>
-        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
     <label for="openSidebarMenu" class="sidebarIconToggle">
         <div class="spinner diagonal part-1"></div>
         <div class="spinner horizontal"></div>
         <div class="spinner diagonal part-2"></div>
     </label>
-        <div id="sidebarMenu">
-                <ul class="sidebarMenuInner">
-                    <li><a href="../Home Page/index.html">Home</a></li>
-                    <li><a href="../Login Page/login.html">Login</a></li>
-                    <li><a href="../AboutUs Page/aboutUs.html">About Us</a></li>
-                    <li><a href="../Application Page/app.html">Apply</a></li>
-                    <li><a href="https://www.instagram.com">Instagram</a></li>
-                </ul>
-            </div>
-            <header>
-                <h1>Apply here</h1>
-            </header>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Login Page/login.html">Login</a></li>
+            <li><a href="../AboutUs Page/aboutUs.html">About Us</a></li>
+            <li><a href="../Application Page/app.html">Apply</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+        </ul>
+    </div>
+    <header>
+        <h1>Apply here</h1>
+    </header>
     <div class="InfoAboutJob">
         <ul class="Requirements app">
             <h4>Requirements</h4>
@@ -81,12 +82,36 @@
     <form action="" id="EmploymentApplication" method="post" onsubmit="return ValidateForm(this);">
         <script type="text/javascript">
             function ValidateForm(frm) {
-                if (frm.First_Name.value == "") { alert('First name is required.'); frm.First_Name.focus(); return false; }
-                if (frm.Last_Name.value == "") { alert('Last name is required.'); frm.Last_Name.focus(); return false; }
-                if (frm.Email_Address.value == "") { alert('Email address is required.'); frm.Email_Address.focus(); return false; }
-                if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.Email_Address.focus(); return false; }
-                if (frm.Position.value == "") { alert('Position is required.'); frm.Position.focus(); return false; }
-                if (frm.Phone.value == "") { alert('Phone is required.'); frm.Phone.focus(); return false; }
+                if (frm.First_Name.value == "") {
+                    alert('First name is required.');
+                    frm.First_Name.focus();
+                    return false;
+                }
+                if (frm.Last_Name.value == "") {
+                    alert('Last name is required.');
+                    frm.Last_Name.focus();
+                    return false;
+                }
+                if (frm.Email_Address.value == "") {
+                    alert('Email address is required.');
+                    frm.Email_Address.focus();
+                    return false;
+                }
+                if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) {
+                    alert('Please enter a valid email address.');
+                    frm.Email_Address.focus();
+                    return false;
+                }
+                if (frm.Position.value == "") {
+                    alert('Position is required.');
+                    frm.Position.focus();
+                    return false;
+                }
+                if (frm.Phone.value == "") {
+                    alert('Phone is required.');
+                    frm.Phone.focus();
+                    return false;
+                }
                 return true;
             }
         </script>
@@ -121,8 +146,7 @@
             </tr>
             <tr>
                 <td>
-                    <label for="Salary"><b>Salary requirements</b></label><br /> <input name="Salary" type="text"
-                        maxlength="50" style="width:100%;max-width: 260px" /> </td>
+                    <label for="Salary"><b>Salary requirements</b></label><br /> <input name="Salary" type="text" maxlength="50" style="width:100%;max-width: 260px" /> </td>
                 <td>
                     <label for="StartDate"><b>When can you start?</b></label><br />
                     <input name="StartDate" type="text" maxlength="50" style="width:100%;max-width: 260px" />
@@ -165,7 +189,7 @@
             </tr>
         </table>
     </form>
-<script src="../SideNav_js_and_css/SideNav.js"></script>
+    <script src="../SideNav_js_and_css/SideNav.js"></script>
 </body>
 
 </html>
