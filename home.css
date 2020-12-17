@@ -253,6 +253,7 @@ li.spacer {
 
 footer {
     height: 30px;
+    opacity: 50%;
 }
 
 footer p {
@@ -265,4 +266,5 @@ footer p {
     height: 30px;
     margin: 0;
     padding: 0;
+    opacity: 100%;
 }
