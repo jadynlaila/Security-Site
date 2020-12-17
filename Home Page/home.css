@@ -209,6 +209,13 @@ ul {
 }
 
 
+/* To make the nav go all the way down */
+
+li.spacer {
+    height: 100vh;
+}
+
+
 /* 
 footer {
     background: linear-gradient(180deg, #2f2f2f 10%, #551A8B 100%);
