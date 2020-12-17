@@ -18,31 +18,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="login.css">
+    <link rel="NavStyleSheet" href="../SideNav_js_and_css/SideNav.css"
     <link href="https://fonts.googleapis.com/css2?family=Sumana&display=swap" rel="stylesheet">
 </head>
 </head>
 
 <body>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Login Page/login.html">Login</a></li>
+            <li><a href="../AboutUs Page/aboutUs.html">About Us</a></li>
+            <li><a href="../Application Page/app.html">Apply</a></li>
+            <li><a href="https://www.instagram.com/carlzielinski_/?hl=en">Instagram</a></li>
+        </ul>
+    </div>
 
-    <div class="container">
-        <div class="header">
-            <h1>Sign in to your account below:</h1>
+    <div class="container Login">
+        <div class="header Login">
+            <h1 class="Login">Sign in to your account below:</h1>
         </div>
 
-        <form name="loginEmail" onsubmit="return validateForm();" method="post">
+        <form name="loginEmail" onsubmit="return validateForm();" method="post" class="Login">
 
             <ul>
-                <li>USERNAME: <input class="username" type="text" name="username">
+                <li>USERNAME: <input class="username Login" type="text" name="username">
                 </li>
 
-                <li>PASSWORD: <input class="password" type="password" name="password">
+                <li>PASSWORD: <input class="password Login" type="password" name="password">
                 </li>
             </ul>
 
-            <input class="submit" type="submit" value="SUBMIT">
+            <input class="submit Login" type="submit" value="SUBMIT">
 
         </form>
     </div>
+    <script src="../SideNav_js_and_css/SideNav.js"></script>
 </body>
 
 </html>
