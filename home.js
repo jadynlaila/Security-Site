@@ -9,3 +9,9 @@ function openNav() {
         x.className = "topnav";
     }
 }
+
+// This is for the Join Button
+
+function Join(){
+    window.location.href = `Application Page/app.html`
+}
