@@ -34,9 +34,13 @@ header {
 }
 
 h1 {
+    display: block;
     background-color: #2f2f2f;
     margin-top: 0;
+    padding-top: 0;
     font-size: 3rem;
+    height: 100px;
+    align-content: center;
 }
 
 .main {
@@ -66,10 +70,13 @@ h1 {
     justify-content: center;
     color: #fff;
     margin-top: 200px;
+    font-size: 2rem;
 }
 
 .overlay img {
     margin-top: -50px;
+    height: 50%;
+    width: 50%;
 }
 
 #videoBackground {
