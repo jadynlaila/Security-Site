@@ -68,7 +68,7 @@ h1 {
 .overlay {
     display: block;
     justify-content: center;
-    color: #fff;
+    color: wheat;
     margin-top: 100px;
     font-size: 2rem;
 }
@@ -266,5 +266,6 @@ footer p {
     height: 30px;
     margin: 0;
     padding: 0;
+    color: wheat;
     opacity: 100%;
 }
