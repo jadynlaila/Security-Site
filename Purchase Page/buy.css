@@ -1,40 +1,51 @@
-html{ 
+html {
     background-image: linear-gradient(to bottom right, #551A8B, #2f2f2f);
     height: 100%;
     color: whitesmoke;
 }
-h1{
+
+h1 {
     text-align: center;
     border: solid black;
     margin-right: 30%;
     margin-left: 30%;
 }
-div.DivsForOrder{
+
+div.DivsForOrder {
     display: flex;
     border: solid black;
     justify-content: space-evenly;
     flex-direction: row;
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: 1.5rem;
 }
-h3.Disclamier{
+
+h3.Disclamier {
     color: gold;
 }
-h4{
+
+h4 {
     font-size: 2rem;
 }
-ul.UlForBuy{
+
+ul.UlForBuy {
     list-style-type: none;
 }
-li.LiForBuy{
+
+li.LiForBuy {
     text-align: center;
 }
-div.CanCannots{
+
+div.CanCannots {
     margin-top: .5rem;
 }
+
+
 /* Sidebar shiz */
+
 #sidebarMenu {
     height: 100%;
     position: absolute;
@@ -47,12 +58,14 @@ div.CanCannots{
     background: linear-gradient(180deg, #2f2f2f 15%, #551A8B 100%);
     z-index: 2;
 }
-.sidebarMenuInner{
-    margin:0;
-    padding:0;
+
+.sidebarMenuInner {
+    margin: 0;
+    padding: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
 }
-.sidebarMenuInner li{
+
+.sidebarMenuInner li {
     list-style: none;
     color: #fff;
     text-transform: uppercase;
@@ -61,19 +74,22 @@ div.CanCannots{
     cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
-.sidebarMenuInner li span{
+
+.sidebarMenuInner li span {
     display: block;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.50);
 }
-.sidebarMenuInner li a{
+
+.sidebarMenuInner li a {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
 }
-input[type="checkbox"]:checked ~ #sidebarMenu {
+
+input[type="checkbox"]:checked~#sidebarMenu {
     transform: translateX(0);
 }
 
@@ -82,6 +98,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     display: none;
 }
+
 .sidebarIconToggle {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -95,6 +112,7 @@ input[type=checkbox] {
     height: 22px;
     width: 22px;
 }
+
 .spinner {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -103,6 +121,7 @@ input[type=checkbox] {
     width: 100%;
     background-color: #fff;
 }
+
 .horizontal {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -110,12 +129,14 @@ input[type=checkbox] {
     float: left;
     margin-top: 3px;
 }
+
 .diagonal.part-1 {
     position: relative;
     transition: all 0.3s;
     box-sizing: border-box;
     float: left;
 }
+
 .diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -123,20 +144,43 @@ input[type=checkbox] {
     float: left;
     margin-top: 3px;
 }
-input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+
+input[type=checkbox]:checked~.sidebarIconToggle>.horizontal {
     transition: all 0.3s;
     box-sizing: border-box;
     opacity: 0;
 }
-input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+
+input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-1 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(135deg);
     margin-top: 8px;
 }
-input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+
+input[type=checkbox]:checked~.sidebarIconToggle>.diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(-135deg);
     margin-top: -9px;
+}
+
+footer {
+    height: 30px;
+    opacity: 50%;
+}
+
+footer p {
+    background-color: #2f2f2f;
+    position: static;
+    bottom: 0;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    color: wheat;
+    opacity: 100%;
+    margin-top: 10px;
 }
