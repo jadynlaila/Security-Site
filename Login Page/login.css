@@ -99,6 +99,7 @@ body {
     color: rgba(255, 255, 255, 0.50);
 }
 .sidebarMenuInner li a{
+    font-family: 'Sumana', serif;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
