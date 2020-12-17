@@ -4,9 +4,9 @@ function validateForm() {
 
     var username = document.forms["loginEmail"]["username"].value;
     var password = document.forms["loginEmail"]["password"].value;
-    if ((username == "indigobird") && (password == "steadfastprotection")) {   //Correct username: indigobird / pass: steadfastprotection
+    if ((username == "username") && (password == "password")) {   //Correct username: indigobird / pass: steadfastprotection
         console.log("state 1");
-        window.location.href = '../Home Page/index.html';
+        window.location.href = `../Purchase Page/buy.html`;
         return false;
     }
     else {
