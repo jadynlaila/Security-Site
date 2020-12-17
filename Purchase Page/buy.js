@@ -1,3 +1,3 @@
 let purchase = function(){
-    alert("Thanks for your purchase")
+    alert("Thank you for your purchase.")
 }
