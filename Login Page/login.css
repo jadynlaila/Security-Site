@@ -68,6 +68,7 @@ body {
 
 /* Sidebar shiz */
 #sidebarMenu {
+    font-family: 'Sumana', serif;
     height: 100%;
     position: absolute;
     top: 0;
@@ -99,7 +100,6 @@ body {
     color: rgba(255, 255, 255, 0.50);
 }
 .sidebarMenuInner li a{
-    font-family: 'Sumana', serif;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
